@@ -3,7 +3,6 @@ import random
 import string
 import numpy as np
 
-
 # Path to word list
 WORDLIST_FILENAME = "words.txt"
 
