@@ -1,10 +1,13 @@
 # Hangman
-An interactive version of a classic word game, Hangman, implemented in Python. To familiarize yourself with the rules, see http://en.wikipedia.org/wiki/Hangman_(game).
+An interactive version of a classic word game, Hangman and another version with added hints, implemented in Python. To familiarize yourself with the rules, see http://en.wikipedia.org/wiki/Hangman_(game). 
 
 ## Structure
 ```
 Hangman/
-|-- hangman.py   # Main game
+|-- functions.py  # Helper functions
+|-- hints.py  # Additional hints for an updated version
+|-- hangman.py   # Main game: basic version
+|-- hangman_with_hints.py  # Main game: updated version with hints
 |-- words.txt     # List of available words
 |-- README.md    # Documentation
 ````
@@ -26,9 +29,16 @@ Python 3.7+
 git clone https://github.com/sgoswami14/Hangman.git
 cd Hangman
 ```
-3. Run the game
+3. Run the basic version of the game
 ```bash
 python hangman.py
+```
+
+OR
+
+4. Run the version of the game with hints
+```bash
+python hangman_with_hints.py
 ```
 
 
