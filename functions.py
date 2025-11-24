@@ -3,7 +3,8 @@ import random
 import string
 import numpy as np
 
-
+# Path to word list
+WORDLIST_FILENAME = "words.txt"
 
 def load_words():
     """Load a list of valid words in lowercase letters from file."""
