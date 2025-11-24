@@ -3,8 +3,6 @@ import random
 import string
 import numpy as np
 
-# Path to word list
-WORDLIST_FILENAME = "words.txt"
 
 
 def load_words():
@@ -221,14 +219,6 @@ def hangman_with_hints(secret_word, nguess=6, n_warning=3):
     pass
 
 
-# -------------------------------
-# Play Game
-# -------------------------------
-
-if __name__ == "__main__":
-    wordlist = load_words()
-    secret_word = choose_word(wordlist)
-    hangman(secret_word)
 
 # secret_word = choose_word(wordlist)
 # hangman_with_hints(secret_word)
