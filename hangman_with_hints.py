@@ -1,8 +1,9 @@
-from hangman import is_word_guessed, get_available_letters
+from functions import is_word_guessed, get_available_letters
+from hints import match_with_gaps, show_possible_matches
+
 # -------------------------------
 # Hints for the Game 
 # -------------------------------
-
 
 def match_with_gaps(my_word, other_word):
     '''
@@ -147,7 +148,6 @@ def hangman_with_hints(secret_word, nguess=6, n_warning=3):
 if __name__ == "__main__":
     wordlist = load_words()
     secret_word = choose_word(wordlist)
-    hangman(secret_word)
+    hangman_with_hints(secret_word)
 
-# secret_word = choose_word(wordlist)
-# hangman_with_hints(secret_word)
+
