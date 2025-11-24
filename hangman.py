@@ -1,7 +1,11 @@
+import random
+import numpy as np
+
 from functions import load_words, choose_words
 from functions import get_available_letters, lose_warning, get_guessed_word, is_word_guessed
 
-
+# Path to word list
+WORDLIST_FILENAME = "words.txt"
     
 def hangman(secret_word, nguess=6, n_warning=3):
     """Start an interactive game of Hangman."""
