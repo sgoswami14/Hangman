@@ -1,5 +1,10 @@
-from functions import is_word_guessed, get_available_letters
+import random
+import numpy as np
+
+
+from functions import is_word_guessed, get_available_letters, get_guessed_word, lose_warning
 from hints import match_with_gaps, show_possible_matches
+
 
 # -------------------------------
 # Hints for the Game 
