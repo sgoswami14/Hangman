@@ -3,6 +3,7 @@ An interactive version of a classic word game, Hangman, implemented in Python. T
 
 ## Structure
 ```
+Hangman/
 |-- hangman.py   # Main game
 |-- words.txt     # List of available words
 |-- README.md    # Documentation
