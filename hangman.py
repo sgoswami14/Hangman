@@ -1,4 +1,5 @@
 import random
+import string
 import numpy as np
 
 from functions import load_words, choose_words
